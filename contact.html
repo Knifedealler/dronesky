@@ -1,0 +1,112 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DroneSky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100;1,200;1,300;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="about.html"><img src="images/Signature.png"></a>
+            <div class="nav-links" id="navLinks"> 
+                <i class="fab fa-times" onclick="hideMenu()"></i>
+                
+
+                <ul>
+                    <li><a href="index.html">НАЧАЛО</a></li>
+                    <li><a href="aerography.html">АЕРОФОТОГРАФИЯ</a></li>
+                    <li><a href="about.html">УСЛУГИ</a></li>
+                    <li><a href="contact.html">КОНТАКТИ</a></li>
+                </ul>
+            </div>
+            <i class="fab fa-bars" onclick="showMenu()"></i>
+
+
+        </nav>
+        <h1>Контакти</h1>
+
+    </section>
+
+
+<!--about us-->
+<section class="contacts">
+    <div class="row">
+        <div class="contacts-col">
+            <h2> Как да ни откриете?</h2>
+            <h1>Свържете се с нас</h1>
+            
+            <h4>-Телефонен номер: 
+                0887 177 420
+                <br>
+                <br>
+                -Имейл адрес:
+                vedat_r00@abv.bg
+                <br>
+                <br>
+                -Адрес:
+                Варна, ул. София 2
+                <br>
+                <br>
+                Нашият офис е с работно време:
+                Понеделник - Петък: 9:00 до 18:00
+                <br>
+                Събота и Неделя – затворено
+            </h4>
+           
+        </div>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.490301084705!2d27.912166315925294!3d43.19920457913946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a453f1a7f8e7b1%3A0x195da0e1fd364e1b!2sul.%20%22Sofia%22%202%2C%209000%20Varna%20Center%2C%20Varna!5e0!3m2!1sen!2sbg!4v1638536816897!5m2!1sen!2sbg" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div class="cform">
+  <h2> Имате въпроси?</h2>
+        <h1>Направете запитване</h1>
+        <form action="/action_page.php">
+          
+          <input type="text" id="fname" name="firstname" placeholder="Име">
+      <br>
+         
+          <input type="text" id="mail" name="email" placeholder="Имейл">
+          <br>
+          
+          <input type="text" id="mess" name="message" placeholder="Съобщение">
+         
+          <br>
+          <input type="submit" value="Изпрати">
+        </form>
+      </div>
+</section>
+
+<!--Footer-->
+<section class= "footer">
+    <h4>За нас</h4>
+    <p>DroneSky</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/vedat.nihat"><i class="fab fa-facebook-f"></i>
+        <a href="https://twitter.com/vedat_redzhebov"><i class="fab fa-twitter"></i>
+        <a href="https://www.instagram.com/dronessky"><i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>     
+   
+    <p>Made with Vedat R.</p>
+</section>
+
+<!--JavaScript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>

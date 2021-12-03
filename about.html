@@ -1,0 +1,103 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DroneSky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100;1,200;1,300;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="about.html"><img src="images/Signature.png"></a>
+            <div class="nav-links" id="navLinks"> 
+                <i class="fab fa-times" onclick="hideMenu()"></i>
+                
+
+                <ul>
+                    <li><a href="index.html">НАЧАЛО</a></li>
+                    <li><a href="aerography.html">АЕРОФОТОГРАФИЯ</a></li>
+                    <li><a href="about.html">УСЛУГИ</a></li>
+                    <li><a href="contact.html">КОНТАКТИ</a></li>
+                </ul>
+            </div>
+            <i class="fab fa-bars" onclick="showMenu()"></i>
+
+
+        </nav>
+        <h1>Услуги</h1>
+
+    </section>
+    <a id="middle"></a>
+    <section class="uslugi">
+        <h1>Пакетни предложения</h1>
+      
+    
+    <div class="row">
+        <div class="uslugi-col">
+            <h3>ПАКЕТ 1</h3>
+            <h4>249</h4> <h2>BGN <h2>
+                <p>1:30 часа дрон заснемане на локация</p>
+                <p>  4k UHD видео резолюция</p>
+                <p>  5 обработени фотографии</p>
+                <p>   2 обработени видеа</p>
+                <p>   + Всички необработени кадри</p>
+                <p>   Цената е без включен ДДС</p>
+        </div>
+        <div class="uslugi-col">
+            <h3>ПАКЕТ 2</h3>
+            <h4>449</h4> <h2>BGN <h2>
+                <p>3 часа дрон заснемане на локация</p>
+                <p>  4k UHD видео резолюция</p>
+                <p>  10 обработени фотографии</p>
+                <p>   4 обработени видеа</p>
+                <p>   + Всички необработени кадри</p>
+                <p>   Цената е без включен ДДС</p>
+        </div>
+        <div class="uslugi-col">
+            <h3>ПАКЕТ 3</h3>
+           <h4>749</h4> <h2>BGN <h2>
+                <p>4:30 часа дрон заснемане на локация</p>
+                <p>  4k UHD видео резолюция</p>
+                <p>  20 обработени фотографии</p>
+                <p>   6 обработени видеа</p>
+                <p>   + Всички необработени кадри</p>
+                <p>   Цената е без включен ДДС</p>
+        </div>
+        
+    </div>
+    
+    </section>
+
+
+<!--Footer-->
+<section class= "footer">
+    <h4>За нас</h4>
+    <p>DroneSky</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/vedat.nihat"><i class="fab fa-facebook-f"></i>
+        <a href="https://twitter.com/vedat_redzhebov"><i class="fab fa-twitter"></i>
+        <a href="https://www.instagram.com/dronessky"><i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>     
+   
+    <p>Made with Vedat R.</p>
+</section>
+
+<!--JavaScript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
