@@ -156,7 +156,8 @@ nav .fa{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
+
 }
 
 h1{
@@ -353,6 +354,7 @@ h3{
     margin: 10%;
     padding: 100px 0;
     text-align: center;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1);
 }
 
 .cta h1{
@@ -364,9 +366,11 @@ h3{
 /*footer*/
 
 .footer{
+ 
     width: 100%;
     text-align: center;
     padding: 20px 0;
+    margin-top: 100px;
 
 }
 
@@ -511,12 +515,12 @@ border-radius: 70%;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
     flex-basis: 30%;
     background: #ffffff;
-border:rgba(66, 97, 155, 0.178);
+border:rgb(26, 38, 61);
     margin: 10px;
     padding: 50px 20px;
     box-sizing: border-box;
     border-style: solid;
-    border-width: 15px;
+    border-width: 10px;
     
 }
 .uslugi h3{
@@ -540,6 +544,38 @@ font-size: 22px;
     
 }
 .uslugi-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.8);
+}
+
+.uslugi1{
+   
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+.uslugi1-row{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.uslugi1-col{
+    
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+    flex-basis: 30%;
+    background: #ffffff;
+border:rgb(26, 38, 61);
+    margin: -10px;
+    padding: 150px 20px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 12px;
+    
+}
+
+.uslugi1-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.8);
 }
 /*---------Kontakti*/
